@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About us</title>
+  <style>
+        .nav{
+      padding:20px;
+      background-color: rgb(18, 18, 110);
+      color:white;
+      overflow: hidden;
+      font-weight: bold;
+      text-decoration: none;
+      list-style-type:none;
+      display: flex;
+      justify-content: space-around;
+    }
+    .nav li a{
+      text-decoration: none;
+      color:white;
+    }
+    #media{
+      display:none;
+      
+    }
+    #fac{
+      display: none;
+      background-color: aqua;
+      color:white;
+    }
+   .media:hover #media{
+    background-color: rgb(79, 79, 255);
+    color:white;
+    cursor:pointer;
+    display:block;
+    padding:10px;
+    font-weight: bold;
+    padding:20px;
+    list-style-type: none;
+   }
+   .fac:hover #fac{
+    background-color:rgb(79, 79, 255);
+    color:white;
+    padding:10px;
+    font-weight: bold;
+    cursor:pointer;
+    display:block;
+    list-style-type: none;
+   }
+   #fac li:hover,#media li:hover{
+    opacity:0.8;
+    
+    color:blue;
+   }
+  .wagwan{
+    width:100%;
+    height:400px;
+  }
+  .loc{
+   margin-top:40px;
+   margin-right:70px;
+  }
+  .logo{
+    height:80px;
+  }
+  .nav li a:hover{
+    cursor:pointer;
+    background-color: beige;
+    color:blue;
+    padding:15px;
+    border-radius: 7px;
+    transition: 0.8s;
+  }
+  *{
+    padding:0px;
+    margin:0px;
+  }
+  .img{
+    width:1170px;
+    height:270px;
+    padding:20px;
+  }
+  button{
+    height:60px;
+    width:100px;
+    padding:10px;
+    background-color: rgb(23, 23, 84);
+    color:white;
+    font-weight:bold;
+    font-family: Arial Narrow;
+    border:none;
+    margin-bottom:600px;
+    margin-left:1020px;
+  }
+  button:hover{
+    opacity:0.8;
+    transition:0.85s;
+    background-color: blanchedalmond;
+    color:blue;
+    border:1px solid blue;
+  }
+   #about{
+    color:white;
+    margin-bottom:200px;
+    font-size: 50px;
+    font-family: Arial Narrow;
+    margin-top: 30px;
+  }
+  h1{
+    text-align:center;
+  }
+  .body{
+    color:black;
+    background-color: rgb(227, 226, 226);
+    font-family: Arial Narrow;
+    padding:20px;
+  }
+  #note{
+    font-family: Arial Narrow;
+    padding:30px;
+    display:flex;
+    grid-template-columns: ;
+  }
+  div h2{
+    margin-left:20px;
+    font-size:lighter;
+    line-height: 2;
+  }
+  .footer{
+    background-color:rgb(15, 15, 67);
+    color:white;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding:100px;
+    font-family:lato  ;
+    justify-content: space-between;
+    line-height:2;
+  }
+  .Contact{
+    margin-left:80px;
+  }
+  .note{
+    margin-right:40px;
+    width:100%;
+    
+  }
+  .testi{
+    margin-left:30px;
+  }
+  .copy{
+    background-color: rgb(42, 40, 40);
+    color:white;
+    padding:20px;
+    height:30px;
+  }
+  button a{
+    text-decoration: none;
+    color:white;
+  }
+  </style>
+</head>
+<body>
+  <ul class="nav">
+    <li><a href="http://127.0.0.1:5500/index.html">Home</a></li>
+    <li class="media"><a>Media Gallery</a>
+    <ul id="media">
+      <li>videos</li><br>
+      <li><a href="http://127.0.0.1:5500/pictures.html">images</a></li>
+    </ul></li>
+    <li><a href="enroll.html">Enroll</a></li>
+    <li><a href="portal.html">School Portal</a></li>
+    <li><a href="about.html">About Us</a></li>
+    <li><a href="contact.html">Contact Us</a></li>
+  </ul>
+  <div class="img" style="background-image: url('https://i0.wp.com/goldennewsng.com/wp-content/uploads/2022/12/images-3.jpeg');">
+    <div id="about"><h3>ABOUT US</h3></div>
+    <button><a href="enroll.html">ENROLL NOW</a></button>
+  </div> 
+  <div class="body">
+    <h1>ABOUT WELLSPRING COLLEGE</h1>
+    <div id="note">
+      <img src="note.PNG" alt="" width="">
+      <div><h2>Wellspring College has a strong sense of purpose.  The school has developed a value statement that drives her functions and interactions.
+
+        We harness every opportunity to give our students sound spiritual, academic, mental and social development. We are committed to providing a challenging, dynamic, relevant and coherent curriculum, which promotes lifelong learning and produces responsible, independent critical thinkers and learners who act ethically and confidently in their personal career and community life..</h2>
+    </div></div>
+  </div>
+  <div class="footer">
+    <div class="note">
+      WELLSPRING COLLEGE is a model school established in 2003 by astute and seasoned academics and education administrators who commonly share the vision of returning standards to the nation's educational system.
+    </div>
+    <div class="testi">
+      Testimonials<br>
+      "Wellspring is the best, just come and experience for yourself. I had four children here. Three graduated, so I have one left."
+      
+      Mrs. Ejiogu - Parent
+      
+      "Even my child’s younger ones want to attend Wellspring College because of the changes they have observed in their brother. I am very satisfied."
+      
+      Mr. Oluremi - Parent
+    </div>
+    <div class="Contact">
+      Contact Info:<br>
+      <i class="fa-solid fa-location-dot fa-flip"></i>25B Somide Odujinrin Street Omole Phase 2, Ikeja, Lagos.
+      (+234) 803 395 4138
+      info@wellspringcollege.org
+    </div>
+  </div>
+  <div class="copy">
+  Copyright&copy;2023 &nbsp; &nbsp; &nbsp;@2023WellspringCollege.com</div>
+</body>
+</html>

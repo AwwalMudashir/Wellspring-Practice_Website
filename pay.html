@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>payment</title>
+  <style>
+    body{
+      background-image: url('opay.jpg');
+      opacity:0.85px;
+    }
+  .twostep{
+  background-color: rgb(251, 249, 249);
+  color:black;
+  width:300px;
+  height:480px;
+  border-radius: 15px;
+  padding:15px;
+  margin-top:50px;
+  margin-bottom:50px;
+  margin-left:500px;
+  line-height: 1.15;
+ }
+ h2{
+  color:black;
+  text-align:center;
+ }
+ form{
+  display:grid;
+  line-height: 1.15;
+ }
+ form button{
+  background-color: rgb(18, 18, 111);
+  color:white;
+  border:none;
+  font-weight: bold;
+  height:30px;
+  width:80px;
+  padding:5px;
+  border-radius:7px;
+  margin-left:120px;
+  margin-top:50px;
+ }
+ form button:hover{
+  cursor:pointer;
+  background-color: beige;
+  color:black;
+  border: 1px solid black;
+  transition:0.9s;
+ }
+input, select{
+  border-radius:7px;
+  height:25px;
+  border:1px solid black;
+  padding:5px;
+}
+  </style>
+</head>
+<body>
+  <div class="twostep"><form action=""><h2>STEP 2:THE PAYMENT</h2>
+    <h3>PAYMENT WITH CARD</h3><br>
+    <label> Name on the Card</label>
+    <input type="text" required placeholder="name"><br>
+    <label>Type of Card</label>
+    <select name="Type of Card">
+    <option type="text">Mastercard Debit Card.</option>
+    <option type="text">Visa Debit Cards</option>
+    <option type="text">RuPay Debit Cards.</option>
+    <option type="text">Virtual Debit Card.</option>
+    </select><br>
+    <label> Bank Verification Number</label>
+    <input type="number" required placeholder="B.V.N"><br>
+    <label>BANK</label>
+    <select name="BANK">
+    <option type="text">GT BANK</option><br>
+    <option type="text">FIRST BANK</option>
+    <option type="text">ACCESS BANK</option>
+    <option type="text">STANBIC IBTC BANK</option>
+    <option type="text">ZENITH BANK</option>
+    </select>
+    <button>PAY</button></form>
+    </div>
+    </body>
+</body>
+</html>

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <style>
+    .nav{
+      padding:20px;
+      background-color: rgb(18, 18, 110);
+      color:white;
+      overflow: hidden;
+      font-weight: bold;
+      text-decoration: none;
+      list-style-type:none;
+      display: flex;
+      justify-content: space-around;
+    }
+    .nav li a{
+      text-decoration: none;
+      color:white;
+    }
+    #media{
+      display:none;
+      
+    }
+    #fac{
+      display: none;
+      background-color: aqua;
+      color:white;
+    }
+   .media:hover #media{
+    background-color: rgb(79, 79, 255);
+    color:white;
+    cursor:pointer;
+    display:block;
+    padding:10px;
+    font-weight: bold;
+    padding:20px;
+    list-style-type: none;
+   }
+   .fac:hover #fac{
+    background-color:rgb(79, 79, 255);
+    color:white;
+    padding:10px;
+    font-weight: bold;
+    cursor:pointer;
+    display:block;
+    list-style-type: none;
+   }
+   #fac li:hover,#media li:hover{
+    opacity:0.8;
+    color:blue;
+   }
+   .nav li a:hover{
+    cursor:pointer;
+    background-color: beige;
+    color:blue;
+    padding:15px;
+    border-radius: 7px;
+    transition: 0.8s;
+  }
+   h1{
+    text-align:center;
+    color:rgb(29, 29, 85);
+    font-family:Cambria;
+
+  }
+  h2{
+    color:rgb(29, 29, 85);
+    font-family:Cambria;
+  }
+  .bodi{
+    line-height: 1.5;
+    background-color: beige;
+    height:200px;
+    padding:10px;
+  }
+  *{
+    padding:0px;
+    margin:0px;
+  }
+  .footer{
+    background-color:rgb(15, 15, 67);
+    color:white;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding:100px;
+    font-family:lato  ;
+    justify-content: space-between;
+    line-height:2;
+  }
+  .Contact{
+    margin-left:80px;
+  }
+  .note{
+    margin-right:40px;
+  }
+  .testi{
+    margin-left:30px;
+  }
+  .copy{
+    background-color: rgb(42, 40, 40);
+    color:white;
+    padding:20px;
+    height:30px;
+  }
+  </style>
+</head>
+<body>
+  <ul class="nav">
+    <li><a href="index.html">Home</a></li>
+    <li class="media"><a>Media Gallery</a>
+    <ul id="media">
+      <li>videos</li><br>
+      <li><a href="pictures.html">images</a></li>
+    </ul></li>
+    <li><a href="enroll.html">Enroll</a></li>
+    <li><a href="portal.html">School Portal</a></li>
+    <li><a href="about.html">About Us</a></li>
+    <li><a>Contact Us</a></li>
+  </ul>
+  <div class="bodi">
+     <H1>CONTACT US</H1>
+   <h2>WhatsApp: 08168418522,09032457866,08133090010.<br>
+   Instagram: @wellspringcollege<br>
+   facebook: WellspringCollege</h2>
+  </div>
+  <div class="footer">
+    <div class="note">
+      WELLSPRING COLLEGE is a model school established in 2003 by astute and seasoned academics and education administrators who commonly share the vision of returning standards to the nation's educational system.
+    </div>
+    <div class="testi">
+      Testimonials<br>
+      "Wellspring is the best, just come and experience for yourself. I had four children here. Three graduated, so I have one left."
+      
+      Mrs. Ejiogu - Parent
+      
+      "Even my child’s younger ones want to attend Wellspring College because of the changes they have observed in their brother. I am very satisfied."
+      
+      Mr. Oluremi - Parent
+    </div>
+    <div class="Contact">
+      Contact Info:<br>
+      <i class="fa-solid fa-location-dot fa-flip"></i>25B Somide Odujinrin Street Omole Phase 2, Ikeja, Lagos.
+      (+234) 803 395 4138
+      info@wellspringcollege.org
+    </div>
+  </div>
+  <div class="copy">
+  Copyright&copy;2023 &nbsp; &nbsp; &nbsp;@2023WellspringCollege.com</div>
+</body>
+</html>

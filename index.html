@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    *{
+      padding: 0px;
+      margin:0px;
+    }
+    .menu{
+      list-style-type: none;
+      color:blue;
+      display: flex;
+      justify-content: space-between;
+      height:100px;
+    }
+    .nav{
+      padding:20px;
+      background-color: rgb(18, 18, 110);
+      color:white;
+      overflow: hidden;
+      font-weight: bold;
+      text-decoration: none;
+      list-style-type:none;
+      display: flex;
+      justify-content: space-around;
+    }
+    .nav li a{
+      text-decoration: none;
+      color:white;
+    }
+    #media{
+      display:none;
+      
+    }
+    #fac{
+      display: none;
+      background-color: aqua;
+      color:white;
+    }
+   .media:hover #media{
+    background-color: rgb(79, 79, 255);
+    color:white;
+    cursor:pointer;
+    display:block;
+    padding:10px;
+    font-weight: bold;
+    padding:20px;
+    list-style-type: none;
+   }
+   .fac:hover #fac{
+    background-color:rgb(79, 79, 255);
+    color:white;
+    padding:10px;
+    font-weight: bold;
+    cursor:pointer;
+    display:block;
+    list-style-type: none;
+   }
+   #fac li:hover,#media li:hover{
+    opacity:0.8;
+    
+    color:blue;
+   }
+  .wagwan{
+    width:100%;
+    height:400px;
+  }
+  .loc{
+   margin-top:40px;
+   margin-right:70px;
+  }
+  .logo{
+    height:80px;
+  }
+  .nav li a:hover{
+    cursor:pointer;
+    background-color: beige;
+    color:blue;
+    padding:15px;
+    border-radius: 7px;
+    transition: 0.8s;
+  }
+   h1{
+    text-align:center;
+    color:blue;
+    font-family: Trebuchet MS; 
+  }
+  .pp{
+    text-align:center;
+    color:blue;
+    font-family: Trebuchet MS; 
+  }
+  #princi{
+    display:flex;
+    padding:20px;
+  }
+  .princi{
+    height:360px;
+    width:400px;
+  }
+  .princim{
+  border-radius: 10px;
+  border-color: blue;
+  border: 1px solid blue;
+  padding:5px;
+  }
+  .princim h3{
+    font-weight: lighter;
+    line-height: 3;
+  }
+  .princim h2{
+    text-align:center;
+  }
+  .footer{
+    background-color:rgb(15, 15, 67);
+    color:white;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding:100px;
+    font-family:lato  ;
+    justify-content: space-between;
+    line-height:2;
+  }
+  .Contact{
+    margin-left:80px;
+  }
+  .note{
+    margin-right:40px;
+  }
+  .testi{
+    margin-left:30px;
+  }
+  .copy{
+    background-color: rgb(42, 40, 40);
+    color:white;
+    padding:20px;
+    height:30px;
+  }
+  .enq{
+    background-color: rgb(219, 207, 192);
+    height:350px;
+    padding:30px;
+  }
+  #enq{
+    background-color: white;
+    padding:20px;
+    color:black;
+    font-family:  Trebuchet MS ;
+    display:grid;
+    height:320px;
+    width:370px;
+    margin-bottom:20px;
+    margin-left:400px;
+    border-radius:8px;
+    grid-template-columns:;
+    text-align:;
+  }
+  #enq h3 {
+    text-align:center;
+  }
+  #enq:hover{
+    border:1px solid black;
+
+  }
+  input{
+    height:20px;
+    border-radius:6px;
+    border:0.5px solid;
+    width:180px;
+    background-color: rgb(206, 205, 205);
+  }
+  #que{
+    height:60px;
+    width:250px;
+  }
+  input:hover{
+    border:2px solid black;
+  }
+  #submit{
+    width:70px;
+    border-radius:7px;
+    background-color: rgb(79, 79, 224);
+    color :white;
+    border:none;
+    height:35px;
+    padding:10px;
+    margin-left:100px;
+  }
+  #submit:hover{
+    background-color: white;
+    color:blue;
+    transition:0.85s;
+    border:1px solid blue;
+  }
+  @media (max-width:576px) {
+  .logo{
+    height:50px;
+  }
+  .loc{
+    margin-top:15px;
+   margin-left:60px;
+  }
+  .loc h3{
+    font-size: 9px;
+  }
+  .menu{
+      list-style-type: none;
+      color:blue;
+      display: flex;
+      justify-content: space-between;
+      height:50px;
+    }
+    .nav{
+      padding:8px;
+      background-color: rgb(18, 18, 110);
+      color:white;
+      overflow: hidden;
+      font-weight: bold;
+      text-decoration: none;
+      list-style-type:none;
+      display: flex;
+      justify-content: space-around;
+      font-size: 10px;
+    }
+    .nav li a{
+      text-decoration: none;
+      color:white;
+    }
+    #media{
+      display:none;
+      
+    }
+    #fac{
+      display: none;
+      background-color: aqua;
+      color:white;
+    }
+   .media:hover #media{
+    background-color: rgb(79, 79, 255);
+    color:white;
+    cursor:pointer;
+    display:block;
+    padding:10px;
+    font-weight: bold;
+    padding:20px;
+    list-style-type: none;
+   }
+   .fac:hover #fac{
+    background-color:rgb(79, 79, 255);
+    color:white;
+    padding:10px;
+    font-weight: bold;
+    cursor:pointer;
+    display:block;
+    list-style-type: none;
+   }
+   #fac li:hover,#media li:hover{
+    opacity:0.8;
+    
+    color:blue;
+   }
+   .wagwan{
+    width:100%;
+    height:200px;
+  
+  }
+  </style>
+</head>
+<body>
+  <ul class="menu">
+    <li><img class="logo" src="logo.PNG"></li>
+    <li><div class="loc"><h3>..SPRING OF KNOWLEDGE AND INTEGRITY</h3></div></li>
+  </ul>
+  <ul class="nav">
+    <li><a>Home</a></li>
+    <li class="media"><a>Media Gallery</a>
+    <ul id="media">
+      <li>videos</li><br>
+      <li><a href="pictures.html">images</a></li>
+    </ul></li>
+    <li><a href="enroll.html">Enroll</a></li>
+    <li><a href="portal.html">School Portal</a></li>
+    <li><a href="about.html">About Us</a></li>
+    <li><a href="contact.html">Contact Us</a></li>
+  </ul>
+  <img class="wagwan" src="wagwan.PNG"><br>
+  <p class="pp"><h1>Welcome To Wellspring College</h1></p><br><br>
+  <div id="princi">
+  <img class="princi" src="principal.PNG" height="150px" width="200px">
+  <div class="princim"><h2>Principal's Welcome Message</h2><br>
+  <h3> It is a fact that a nation’s future depends on the calibre of her youths, hence the importance of the standard of her education cannot be over-emphasised. Presently, Nigeria’s educational sector is an ailing one, for which reason the founders of Wellspring College came up with the idea of a school with the goal of giving succour to the Nigerian youth by providing an all-round education suitable for future leaders.</h3></div></div>
+  <div class="enq">
+    <div id="enq"><form action="thanks.html"><h3> DO YOU HAVE AN ENQUIRY??</h3><br>
+      <h3>Fill This Enquiry Form!</h3><br>
+      
+      <label>Your name</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="text" required><br><br>
+      <label>Phone Number</label>&nbsp;&nbsp;
+      <input type="number" maxlength="11" required><br><br>
+      <label>Email</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="text" required placeholder="@gmail.com"><br><br>
+      
+      <label >Question</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="text"  id="que" required><br><br>
+    
+      <button id="submit">Submit</button>
+      </form>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="note">
+      WELLSPRING COLLEGE is a model school established in 2003 by astute and seasoned academics and education administrators who commonly share the vision of returning standards to the nation's educational system.
+    </div>
+    <div class="testi">
+      Testimonials<br>
+      "Wellspring is the best, just come and experience for yourself. I had four children here. Three graduated, so I have one left."
+      
+      Mrs. Ejiogu - Parent
+      
+      "Even my child’s younger ones want to attend Wellspring College because of the changes they have observed in their brother. I am very satisfied."
+      
+      Mr. Oluremi - Parent
+    </div>
+    <div class="Contact">
+      Contact Info:<br>
+      <i class="fa-solid fa-location-dot fa-flip"></i>25B Somide Odujinrin Street Omole Phase 2, Ikeja, Lagos.
+      (+234) 803 395 4138
+      info@wellspringcollege.org
+    </div>
+  </div>
+  <div class="copy">
+  Copyright&copy;2023 &nbsp; &nbsp; &nbsp;@2023WellspringCollege.com</div>
+</body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>STEP 1</title>
+  <style>
+     *{
+    padding:0px;
+    margin:0px;
+  }
+  .img{
+    width:260px;
+    height:500px;
+    padding:40px;
+    opacity:0.8;
+    text-align: center;
+    position: fixed;
+
+  }
+  #enroll{
+   color:black;
+   font-family: Arial Narrow Bold;
+   margin-top:150px;
+   font-weight: bold;
+   font-size: 40px;
+  }
+ #enroll button{
+  background-color: black;
+  color:white;
+  height:30px;
+  width:90px;
+  border:none;
+  border-radius:7px;
+  text-decoration: none;
+ }
+  #enroll button a{
+  text-decoration: none;
+  color:white;
+ }
+ #enroll button a:hover{
+  color:black;
+ }
+ #enroll button:hover{
+  background-color: white;
+  border:1px solid black;
+  color:black;
+ }
+ body{
+  background-color: rgb(244, 228, 237);
+ }
+ .bodi{
+  display: flex;
+ }
+ .twostep{
+  background-color: rgb(251, 249, 249);
+  color:black;
+  width:500px;
+  height:670px;
+  border-radius: 15px;
+  padding:15px;
+  margin-top:50px;
+  margin-bottom:50px;
+  margin-left:500px;
+  line-height: 1.15;
+ }
+ h2{
+  color:black;
+  text-align:center;
+ }
+ input{
+  border-radius: 6px;
+  padding:5px;
+  border:1px solid black;
+ }
+ form{
+  display:grid;
+  line-height: 1.15;
+ }
+ form button{
+  background-color: black;
+  color:white;
+  border:none;
+  height:30px;
+  width:80px;
+  padding:5px;
+  border-radius:7px;
+  margin-left:200px;
+ }
+ form button:hover{
+  cursor:pointer;
+  background-color: beige;
+  color:black;
+  border: 1px solid black;
+  transition:0.9s;
+ }
+  </style>
+</head>
+<body>
+  <div class="bodi">
+    <div class="img" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIy7psigL31JTOLTc2TYGRHncAGVs3KHWi2w&usqp=CAU');">
+    <div id="enroll"><img src="https://image.educare.school/image/86388118/media/file/dcf8de/1611885258logo-single.png" ><h3>ENROLL NOW</h3> <button><a href="index.html">Back Home</a></button></div></div>
+  <div class="twostep"><form action="pay.html"><h2>STEP1:Register Your Child</h2><br><br>
+  <h3>THE CHILD</h3><br>
+  <label> First Name</label>
+  <input type="text" required placeholder=" First Name"><br>
+  <label> Last Name</label>
+  <input type="text" required placeholder=" Last Name"><br>
+  <label> Age</label>
+  <input type="number" required placeholder="age"><br>
+  <label> Date of Birth</label>
+  <input type="date" required><br>
+  <h3>THE PARENT/GUARDIAN</h3><br>
+  <label>Fullname</label>
+  <input type="text" required placeholder="fullname"><br>
+  <label>Phone number</label>
+  <input type="number" required placeholder="number" minlength="11" maxlength="11"><br>
+  <label>Email</label>
+  <input type="email" required placeholder="@gmail.com"><br><br>
+  <button>SUBMIT</button>
+  </form>
+  </div>
+  
+</body>
+</html>
